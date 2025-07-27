@@ -1,0 +1,17 @@
+git:
+git init  
+git config --global user.name "LogeshITHub"
+git config --global user.email "logesh24it@gmail.com"
+git remote add origin https://github.com/LogeshITHub/ReactJsTutorial.git
+git add . 
+git commit -m "Added project files"
+git push -u origin master
+
+
+get:
+git branch -r
+git pull origin master
+
+undo:
+git restore file.ts
+git restore .

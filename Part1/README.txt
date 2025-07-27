@@ -33,4 +33,23 @@ ii)settings Configure
     }
 
 Note : auto suggest in jsx page
-1:09:00
+
+------------------------------------------------------
+html            |           jsx
+------------------------------------------------------
+class           |           className
+For             |           htmlFor
+attributes      |           Property
+
+
+
+
+reactjs
+
+name is fragument   : 2 types
+
+<>
+</>       
+
+<React.fragument>
+</React.fragument>

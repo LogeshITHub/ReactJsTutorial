@@ -32,3 +32,10 @@ alt+shift+down
 line kila kondu poga
 
 alt+down
+
+
+finale ::
+
+1.different b/w class component and functional component
+2.class component inbulid preparty erukku athanala run time update ui theriyethu
+3.without state in function component not update data in runtime

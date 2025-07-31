@@ -9,6 +9,9 @@
 setData("Test2") vachicha athu entha value set pannikum
 setCount((previouscount)=>{return previouscount+1})  vachicha antha state erukkara old value get panni athod add ella minus or etho operation pani use pannika mudiyum 
 
-02.51
+4.condition based content rendering
 
-
+if elseif else
+ternory coniditon ?:
+single condition match execute
+swithc case

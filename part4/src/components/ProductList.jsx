@@ -138,21 +138,18 @@ const ProductList = ({ products }) => {
                   <div className="item-content">
                   <span>{iphonelist.Item} - ₹{iphonelist.Price}</span>
                   <span className="icon-actions">
-
                     <MdModeEdit 
                     role="button" 
                     tabIndex={0} 
                     className="edit-icon" 
                     onClick={()=>{(EditIphone(iphonelist.id))}}
                     />
-
                     <MdDelete 
                     role="button" 
                     tabIndex={0} 
                     className="delete-icon"                     
                     onClick={()=>{(DeleteIphone(iphonelist.id))}}
-                    />
-                    
+                    />                    
                   </span>
                   </div>
                 </div>

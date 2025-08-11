@@ -40,6 +40,7 @@ function App() {
                   </NavDropdown.Item>
                 </NavDropdown>
               </Nav>
+
               <Form className="d-flex">
                 <Form.Control
                   type="search"
@@ -62,6 +63,7 @@ function App() {
           {/* wrongurl redirct 404page */}
           <Route path="*" element={<NotFound />}></Route>
         </Routes>
+        {/* <Footer /> */}
       </Router>
     </>
   );

@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
+import useFetch from "../custom-hooks/useFetch";
 
 const Home = () => {
-  return (
-    <div>Home</div>
-  )
-}
+  let { data } = useFetch("http://localhost:5000/Products");
 
-export default Home
+  return <div>Home - Total Products {data.length}</div>;
+};
+
+export default Home;

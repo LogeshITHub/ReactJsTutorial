@@ -51,4 +51,10 @@ v. if any error set loginpolicy set remotesigned
 7. React Loading Indicators include
    npm install react-loading-indicators
 
-   08.08;
+8. Custom Hooks pre defined set (templetes)
+   useFetch.js
+
+9. react toast (pop-up)
+   npm install react-hot-toast
+
+10.

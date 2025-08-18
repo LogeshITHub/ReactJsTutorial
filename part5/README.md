@@ -57,4 +57,8 @@ v. if any error set loginpolicy set remotesigned
 9. react toast (pop-up)
    npm install react-hot-toast
 
-10.
+   10.axios is alternative for fetch
+   npm install axios
+
+   11.Ui Component (now i am using pop-up)
+   npm install @mui/material @emotion/react @emotion/styled

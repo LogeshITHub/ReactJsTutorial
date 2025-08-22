@@ -57,8 +57,41 @@ v. if any error set loginpolicy set remotesigned
 9. react toast (pop-up)
    npm install react-hot-toast
 
-   10.axios is alternative for fetch
-   npm install axios
+10. axios is alternative for fetch
+    npm install axios
 
-   11.Ui Component (now i am using pop-up)
-   npm install @mui/material @emotion/react @emotion/styled
+11. Ui Component (now i am using pop-up)
+    npm install @mui/material @emotion/react @emotion/styled
+
+    09.10
+
+12 .into json
+//#region Inside json Format
+// const [Product, setProduct] = useState({
+// title: "",
+// description: "",
+// rating: {
+// count: 0,
+// price: 0,
+// },
+// });
+// function handleChange(e) {
+// let { value, name } = e.target;
+
+// if (name.includes("rating")) {
+// let subname = name.split(".")[1];
+// setProduct((prev) => ({
+// ...prev,
+// rating: {
+// ...prev.rating,
+// [subname]: value,
+// },
+// }));
+// } else {
+// setProduct((prev) => ({
+// ...prev,
+// [name]: value,
+// }));
+// }
+// }
+//#endregion

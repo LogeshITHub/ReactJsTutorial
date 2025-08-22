@@ -96,7 +96,7 @@ const ProductList = () => {
                   </Card.Text>
 
                   <h5 className="text-primary fw-bold mb-3">
-                    ${product.price?.toFixed(2)}
+                    ${product.price}
                   </h5>
 
                   <div className="d-flex gap-2">

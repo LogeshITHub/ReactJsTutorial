@@ -768,6 +768,19 @@
       ],
       "creationAt": "2025-08-09T20:33:59.000Z",
       "updatedAt": "2025-08-09T20:33:59.000Z"
+    },
+    {
+      "id": 1755887258919,
+      "title": "Laptop",
+      "slug": "laptop",
+      "price": 10,
+      "description": "Laptop",
+      "category": {},
+      "images": [
+        "blob:http://localhost:5173/3a537dbd-2010-4558-ac9c-7eb8b13540e9"
+      ],
+      "creationAt": "2025-08-22T18:27:46.280Z",
+      "updatedAt": "2025-08-22T18:27:46.280Z"
     }
   ]
 }

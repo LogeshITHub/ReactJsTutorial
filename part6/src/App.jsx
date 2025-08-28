@@ -5,7 +5,7 @@ import "./App.css";
 
 // Reducer function
 // All in One
-function reducer(state, action) {
+let reducer = (state, action) => {
   switch (action.type) {
     case "Increment":
       return { ...state, count: state.count + 1 };
@@ -16,7 +16,7 @@ function reducer(state, action) {
     default:
       return state;
   }
-}
+};
 
 function App() {
   // useReducer State Management

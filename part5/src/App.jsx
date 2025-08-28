@@ -12,6 +12,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import ProductList from "./components/ProductList";
 import NotFound from "./components/NotFound";
+import UpdateProduct from "./components/UpdateProduct";
 
 function App() {
   let username = "Logesh";
@@ -59,7 +60,7 @@ function App() {
           <Route path="/login/:randomname" element={<Login />}></Route>
           <Route path="/signup" element={<Signup />}></Route>
           <Route path="/productlist" element={<ProductList />}></Route>
-
+          <Route path="/update/:id" element={<UpdateProduct />}></Route>
           {/* wrongurl redirct 404page */}
           <Route path="*" element={<NotFound />}></Route>
         </Routes>

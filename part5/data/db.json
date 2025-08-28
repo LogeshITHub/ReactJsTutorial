@@ -1,95 +1,52 @@
 {
   "Products": [
     {
-      "id": 10,
+      "id": "10",
       "title": "Classic Blue Baseball Cap",
       "slug": "classic-blue-baseball-cap",
-      "price": 86,
+      "price": 89,
       "description": "Top off your casual look with our Classic Blue Baseball Cap, made from high-quality materials for lasting comfort. Featuring a timeless six-panel design with a pre-curved visor, this adjustable cap offers both style and practicality for everyday wear.",
-      "category": {
-        "id": 1,
-        "name": "Clothes",
-        "slug": "clothes",
-        "image": "https://i.imgur.com/QkIa5tT.jpeg",
-        "creationAt": "2025-08-09T20:33:59.000Z",
-        "updatedAt": "2025-08-09T20:33:59.000Z"
-      },
+      "category": {},
       "images": [
         "https://i.imgur.com/wXuQ7bm.jpeg",
         "https://i.imgur.com/BZrIEmb.jpeg",
         "https://i.imgur.com/KcT6BE0.jpeg"
       ],
-      "creationAt": "2025-08-09T20:33:59.000Z",
-      "updatedAt": "2025-08-09T20:33:59.000Z"
+      "creationAt": "2025-08-28T14:31:52.763Z",
+      "updatedAt": "2025-08-28T14:31:52.763Z"
     },
     {
-      "id": 15,
+      "id": "15",
       "title": "Classic White Crew Neck T-Shirt",
       "slug": "classic-white-crew-neck-t-shirt",
       "price": 39,
       "description": "Elevate your basics with this versatile white crew neck tee. Made from a soft, breathable cotton blend, it offers both comfort and durability. Its sleek, timeless design ensures it pairs well with virtually any outfit. Ideal for layering or wearing on its own, this t-shirt is a must-have staple for every wardrobe.",
-      "category": {
-        "id": 1,
-        "name": "Clothes",
-        "slug": "clothes",
-        "image": "https://i.imgur.com/QkIa5tT.jpeg",
-        "creationAt": "2025-08-09T20:33:59.000Z",
-        "updatedAt": "2025-08-09T20:33:59.000Z"
-      },
+      "category": {},
       "images": [
         "https://i.imgur.com/axsyGpD.jpeg",
         "https://i.imgur.com/T8oq9X2.jpeg",
         "https://i.imgur.com/J6MinJn.jpeg"
       ],
-      "creationAt": "2025-08-09T20:33:59.000Z",
-      "updatedAt": "2025-08-09T20:33:59.000Z"
+      "creationAt": "2025-08-28T14:31:40.611Z",
+      "updatedAt": "2025-08-28T14:31:40.611Z"
     },
     {
-      "id": 16,
+      "id": "16",
       "title": "Classic White Tee - Timeless Style and Comfort",
       "slug": "classic-white-tee-timeless-style-and-comfort",
-      "price": 73,
+      "price": 7889,
       "description": "Elevate your everyday wardrobe with our Classic White Tee. Crafted from premium soft cotton material, this versatile t-shirt combines comfort with durability, perfect for daily wear. Featuring a relaxed, unisex fit that flatters every body type, it's a staple piece for any casual ensemble. Easy to care for and machine washable, this white tee retains its shape and softness wash after wash. Pair it with your favorite jeans or layer it under a jacket for a smart look.",
-      "category": {
-        "id": 1,
-        "name": "Clothes",
-        "slug": "clothes",
-        "image": "https://i.imgur.com/QkIa5tT.jpeg",
-        "creationAt": "2025-08-09T20:33:59.000Z",
-        "updatedAt": "2025-08-09T20:33:59.000Z"
-      },
+      "category": {},
       "images": [
         "https://i.imgur.com/Y54Bt8J.jpeg",
         "https://i.imgur.com/SZPDSgy.jpeg",
         "https://i.imgur.com/sJv4Xx0.jpeg"
       ],
-      "creationAt": "2025-08-09T20:33:59.000Z",
-      "updatedAt": "2025-08-09T20:33:59.000Z"
+      "creationAt": "2025-08-28T14:34:15.692Z",
+      "updatedAt": "2025-08-28T14:54:49.568Z"
     },
     {
-      "id": 17,
-      "title": "Classic Black T-Shirt",
-      "slug": "classic-black-t-shirt",
-      "price": 35,
-      "description": "Elevate your everyday style with our Classic Black T-Shirt. This staple piece is crafted from soft, breathable cotton for all-day comfort. Its versatile design features a classic crew neck and short sleeves, making it perfect for layering or wearing on its own. Durable and easy to care for, it's sure to become a favorite in your wardrobe.",
-      "category": {
-        "id": 1,
-        "name": "Clothes",
-        "slug": "clothes",
-        "image": "https://i.imgur.com/QkIa5tT.jpeg",
-        "creationAt": "2025-08-09T20:33:59.000Z",
-        "updatedAt": "2025-08-09T20:33:59.000Z"
-      },
-      "images": [
-        "https://i.imgur.com/9DqEOV5.jpeg",
-        "https://i.imgur.com/ae0AEYn.jpeg",
-        "https://i.imgur.com/mZ4rUjj.jpeg"
-      ],
-      "creationAt": "2025-08-09T20:33:59.000Z",
-      "updatedAt": "2025-08-09T20:33:59.000Z"
-    },
-    {
-      "id": 18,
+      "id": "18",
       "title": "Sleek White & Orange Wireless Gaming Controller",
       "slug": "sleek-white-orange-wireless-gaming-controller",
       "price": 69,
@@ -111,7 +68,7 @@
       "updatedAt": "2025-08-09T20:33:59.000Z"
     },
     {
-      "id": 19,
+      "id": "19",
       "title": "Sleek Wireless Headphone & Inked Earbud Set",
       "slug": "sleek-wireless-headphone-inked-earbud-set",
       "price": 44,
@@ -133,7 +90,7 @@
       "updatedAt": "2025-08-09T20:33:59.000Z"
     },
     {
-      "id": 20,
+      "id": "20",
       "title": "Sleek Comfort-Fit Over-Ear Headphones",
       "slug": "sleek-comfort-fit-over-ear-headphones",
       "price": 28,
@@ -155,7 +112,7 @@
       "updatedAt": "2025-08-09T20:33:59.000Z"
     },
     {
-      "id": 21,
+      "id": "21",
       "title": "Efficient 2-Slice Toaster",
       "slug": "efficient-2-slice-toaster",
       "price": 48,
@@ -177,7 +134,7 @@
       "updatedAt": "2025-08-09T20:33:59.000Z"
     },
     {
-      "id": 22,
+      "id": "22",
       "title": "Sleek Wireless Computer Mouse",
       "slug": "sleek-wireless-computer-mouse",
       "price": 10,
@@ -199,7 +156,7 @@
       "updatedAt": "2025-08-09T20:33:59.000Z"
     },
     {
-      "id": 23,
+      "id": "23",
       "title": "Sleek Modern Laptop with Ambient Lighting",
       "slug": "sleek-modern-laptop-with-ambient-lighting",
       "price": 43,
@@ -221,7 +178,7 @@
       "updatedAt": "2025-08-09T20:33:59.000Z"
     },
     {
-      "id": 24,
+      "id": "24",
       "title": "Sleek Modern Laptop for Professionals",
       "slug": "sleek-modern-laptop-for-professionals",
       "price": 97,
@@ -243,7 +200,7 @@
       "updatedAt": "2025-08-09T20:33:59.000Z"
     },
     {
-      "id": 25,
+      "id": "25",
       "title": "Stylish Red & Silver Over-Ear Headphones",
       "slug": "stylish-red-silver-over-ear-headphones",
       "price": 39,
@@ -265,7 +222,7 @@
       "updatedAt": "2025-08-09T20:33:59.000Z"
     },
     {
-      "id": 26,
+      "id": "26",
       "title": "Sleek Mirror Finish Phone Case",
       "slug": "sleek-mirror-finish-phone-case",
       "price": 27,
@@ -287,7 +244,7 @@
       "updatedAt": "2025-08-09T20:33:59.000Z"
     },
     {
-      "id": 27,
+      "id": "27",
       "title": "Sleek Smartwatch with Vibrant Display",
       "slug": "sleek-smartwatch-with-vibrant-display",
       "price": 16,
@@ -309,7 +266,7 @@
       "updatedAt": "2025-08-09T20:33:59.000Z"
     },
     {
-      "id": 28,
+      "id": "28",
       "title": "Sleek Modern Leather Sofa",
       "slug": "sleek-modern-leather-sofa",
       "price": 53,
@@ -331,7 +288,7 @@
       "updatedAt": "2025-08-09T20:33:59.000Z"
     },
     {
-      "id": 29,
+      "id": "29",
       "title": "Mid-Century Modern Wooden Dining Table",
       "slug": "mid-century-modern-wooden-dining-table",
       "price": 24,
@@ -353,7 +310,7 @@
       "updatedAt": "2025-08-09T20:33:59.000Z"
     },
     {
-      "id": 30,
+      "id": "30",
       "title": "Elegant Golden-Base Stone Top Dining Table",
       "slug": "elegant-golden-base-stone-top-dining-table",
       "price": 66,
@@ -375,7 +332,7 @@
       "updatedAt": "2025-08-09T20:33:59.000Z"
     },
     {
-      "id": 31,
+      "id": "31",
       "title": "Modern Elegance Teal Armchair",
       "slug": "modern-elegance-teal-armchair",
       "price": 25,
@@ -397,7 +354,7 @@
       "updatedAt": "2025-08-09T20:33:59.000Z"
     },
     {
-      "id": 32,
+      "id": "32",
       "title": "Elegant Solid Wood Dining Table",
       "slug": "elegant-solid-wood-dining-table",
       "price": 67,
@@ -419,7 +376,7 @@
       "updatedAt": "2025-08-09T20:33:59.000Z"
     },
     {
-      "id": 34,
+      "id": "34",
       "title": "Modern Ergonomic Office Chair",
       "slug": "modern-ergonomic-office-chair",
       "price": 71,
@@ -440,7 +397,7 @@
       "updatedAt": "2025-08-09T20:33:59.000Z"
     },
     {
-      "id": 35,
+      "id": "35",
       "title": "Futuristic Holographic Soccer Cleats",
       "slug": "futuristic-holographic-soccer-cleats",
       "price": 39,
@@ -462,7 +419,7 @@
       "updatedAt": "2025-08-09T20:33:59.000Z"
     },
     {
-      "id": 36,
+      "id": "36",
       "title": "Rainbow Glitter High Heels",
       "slug": "rainbow-glitter-high-heels",
       "price": 39,
@@ -484,7 +441,7 @@
       "updatedAt": "2025-08-09T20:33:59.000Z"
     },
     {
-      "id": 37,
+      "id": "37",
       "title": "Chic Summer Denim Espadrille Sandals",
       "slug": "chic-summer-denim-espadrille-sandals",
       "price": 33,
@@ -506,7 +463,7 @@
       "updatedAt": "2025-08-09T20:33:59.000Z"
     },
     {
-      "id": 38,
+      "id": "38",
       "title": "Vibrant Runners: Bold Orange & Blue Sneakers",
       "slug": "vibrant-runners-bold-orange-blue-sneakers",
       "price": 27,
@@ -528,7 +485,7 @@
       "updatedAt": "2025-08-09T20:33:59.000Z"
     },
     {
-      "id": 39,
+      "id": "39",
       "title": "Vibrant Pink Classic Sneakers",
       "slug": "vibrant-pink-classic-sneakers",
       "price": 84,
@@ -550,7 +507,7 @@
       "updatedAt": "2025-08-09T20:33:59.000Z"
     },
     {
-      "id": 40,
+      "id": "40",
       "title": "Futuristic Silver and Gold High-Top Sneaker",
       "slug": "futuristic-silver-and-gold-high-top-sneaker",
       "price": 68,
@@ -572,7 +529,7 @@
       "updatedAt": "2025-08-09T20:33:59.000Z"
     },
     {
-      "id": 41,
+      "id": "41",
       "title": "Futuristic Chic High-Heel Boots",
       "slug": "futuristic-chic-high-heel-boots",
       "price": 36,
@@ -594,7 +551,7 @@
       "updatedAt": "2025-08-09T20:33:59.000Z"
     },
     {
-      "id": 42,
+      "id": "42",
       "title": "Elegant Patent Leather Peep-Toe Pumps with Gold-Tone Heel",
       "slug": "elegant-patent-leather-peep-toe-pumps",
       "price": 53,
@@ -616,7 +573,7 @@
       "updatedAt": "2025-08-09T20:33:59.000Z"
     },
     {
-      "id": 43,
+      "id": "43",
       "title": "Elegant Purple Leather Loafers",
       "slug": "elegant-purple-leather-loafers",
       "price": 17,
@@ -638,7 +595,7 @@
       "updatedAt": "2025-08-09T20:33:59.000Z"
     },
     {
-      "id": 44,
+      "id": "44",
       "title": "Classic Blue Suede Casual Shoes",
       "slug": "classic-blue-suede-casual-shoes",
       "price": 39,
@@ -660,7 +617,7 @@
       "updatedAt": "2025-08-09T20:33:59.000Z"
     },
     {
-      "id": 46,
+      "id": "46",
       "title": "Sleek All-Terrain Go-Kart",
       "slug": "sleek-all-terrain-go-kart",
       "price": 37,
@@ -682,7 +639,7 @@
       "updatedAt": "2025-08-09T20:33:59.000Z"
     },
     {
-      "id": 47,
+      "id": "47",
       "title": "Radiant Citrus Eau de Parfum",
       "slug": "radiant-citrus-eau-de-parfum",
       "price": 73,
@@ -704,7 +661,7 @@
       "updatedAt": "2025-08-09T20:33:59.000Z"
     },
     {
-      "id": 48,
+      "id": "48",
       "title": "Sleek Olive Green Hardshell Carry-On Luggage",
       "slug": "sleek-olive-green-hardshell-carry-on-luggage",
       "price": 48,
@@ -726,7 +683,7 @@
       "updatedAt": "2025-08-09T20:33:59.000Z"
     },
     {
-      "id": 50,
+      "id": "50",
       "title": "Trendy Pink-Tinted Sunglasses",
       "slug": "trendy-pink-tinted-sunglasses",
       "price": 38,
@@ -748,39 +705,17 @@
       "updatedAt": "2025-08-09T20:33:59.000Z"
     },
     {
-      "id": 51,
-      "title": "Elegant Glass Tumbler Set",
-      "slug": "elegant-glass-tumbler-set",
-      "price": 50,
-      "description": "Enhance your drinkware collection with our sophisticated set of glass tumblers, perfect for serving your favorite beverages. This versatile set includes both clear and subtly tinted glasses, lending a modern touch to any table setting. Crafted with quality materials, these durable tumblers are designed to withstand daily use while maintaining their elegant appeal.",
-      "category": {
-        "id": 5,
-        "name": "Miscellaneous",
-        "slug": "miscellaneous",
-        "image": "https://i.imgur.com/BG8J0Fj.jpg",
-        "creationAt": "2025-08-09T20:33:59.000Z",
-        "updatedAt": "2025-08-09T20:33:59.000Z"
-      },
-      "images": [
-        "https://i.imgur.com/TF0pXdL.jpg",
-        "https://i.imgur.com/BLDByXP.jpg",
-        "https://i.imgur.com/b7trwCv.jpg"
-      ],
-      "creationAt": "2025-08-09T20:33:59.000Z",
-      "updatedAt": "2025-08-09T20:33:59.000Z"
-    },
-    {
-      "id": 1755887258919,
-      "title": "Laptop",
-      "slug": "laptop",
-      "price": 10,
-      "description": "Laptop",
+      "id": "1756393554951",
+      "title": "fghgfhfg",
+      "slug": "fghgfhfg",
+      "price": 54645,
+      "description": "gfhfghghg",
       "category": {},
       "images": [
-        "blob:http://localhost:5173/3a537dbd-2010-4558-ac9c-7eb8b13540e9"
+        "blob:http://localhost:5173/3c9151a1-cbb6-48d9-b05a-a85eafddac18"
       ],
-      "creationAt": "2025-08-22T18:27:46.280Z",
-      "updatedAt": "2025-08-22T18:27:46.280Z"
+      "creationAt": "2025-08-28T15:05:54.951Z",
+      "updatedAt": "2025-08-28T15:19:24.797Z"
     }
   ]
 }

@@ -3,6 +3,7 @@ import { Row, Col, Card, Button, Container } from "react-bootstrap";
 import { OrbitProgress } from "react-loading-indicators";
 import useFetch from "../custom-hooks/useFetch";
 import toast, { Toaster } from "react-hot-toast";
+import { useNavigate } from "react-router-dom";
 
 function truncateText(text, maxLength) {
   return text && text.length > maxLength
@@ -48,13 +49,37 @@ const ProductList = () => {
 
   //#region Custom Hooks
   let { isloading, data, error } = useFetch("http://localhost:5000/Products");
+  const [products, setProducts] = useState([]);
+
   //#endregion
 
+  let Navigate = useNavigate();
+
+  function Navigatepage(id) {
+    debugger;
+    Navigate(`/update/${id}`);
+  }
+
+  const DeleteProduct = (id) => {
+    fetch(`http://localhost:5000/Products/${String(id)}`, {
+      method: "DELETE",
+      headers: {
+        "Content-Type": "Application/json",
+      },
+    })
+      .then(() => {
+        alert("Product Deleted successfully!");
+        // update local state so UI refreshes
+        setProducts((prev) => prev.filter((p) => p.id !== id));
+      })
+      .catch((err) => console.log(err));
+  };
+
   useEffect(() => {
-    if (error) {
-      toast.error("This didn't work.");
+    if (data) {
+      setProducts(data);
     }
-  }, [error]);
+  }, [data]);
 
   if (isloading) {
     return (
@@ -79,7 +104,7 @@ const ProductList = () => {
       )}
       <Container className="py-4">
         <Row className="g-4">
-          {data.map((product) => (
+          {products.map((product) => (
             <Col key={product.id} lg={3} md={6} sm={12}>
               <Card className="shadow-sm h-100">
                 <Card.Img
@@ -95,13 +120,28 @@ const ProductList = () => {
                     {truncateText(product.description, 100)}
                   </Card.Text>
 
-                  <h5 className="text-primary fw-bold mb-3">
+                  <h5 className="text-primary fw-bold mb-3 ">
                     ${product.price}
                   </h5>
 
                   <div className="d-flex gap-2">
-                    <Button variant="primary">Add to Cart</Button>
-                    <Button variant="success">Buy</Button>
+                    <Button variant="primary">Add Cart</Button>
+                    <Button
+                      variant="success"
+                      onClick={() => {
+                        Navigatepage(product.id);
+                      }}
+                    >
+                      Update
+                    </Button>
+                    <Button
+                      variant="danger"
+                      onClick={() => {
+                        DeleteProduct(product.id);
+                      }}
+                    >
+                      Delete
+                    </Button>
                   </div>
                 </Card.Body>
                 <Card.Footer>
